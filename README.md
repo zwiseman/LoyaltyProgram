@@ -31,7 +31,7 @@ Note* If you are seing npm errors with rifraf and/or react-scripts run the follo
   npm install rimraf --save-dev
   npm install react-scripts --save
 ```
-Application uses react, .NET 5, Entity Frameworks and SQLite.
+Application uses react, .NET 5, Code first Entity Framework and SQLite.
 
 To begin, navigate to https://localhost:5001/ then register. After registering you will comfirm your identity then see a confimation page.
 From the confimation page now navigate to login and sign in with your user credentials. This will log you in and you will be able to see all 

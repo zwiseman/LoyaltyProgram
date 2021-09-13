@@ -5,6 +5,32 @@
 To run install .NET 5.0
 Clone the repository restore nuget packages, build and run!
 
+To quickly build and run using dotnet cli run the following commands:
+At solution level:
+```
+  dotnet restore
+```
+Install npm packages at client app level:
+```
+cd LoyaltyProgram/ClientApp && npm install
+```
+At project level (cd LoyaltyProgram):
+```
+  cd .. && dotnet run
+```
+
+For live reloading development run:
+```
+  cd .. && dotnet watch run
+```
+
+running application should automatically pick up a browser. If it does not then open up a favorite browser of choice and navigate to either http://localhost:5000 or https://localhost:5001
+
+Note* If you are seing npm errors with rifraf and/or react-scripts run the following scripts in ClientApp folder:
+```
+  npm install rimraf --save-dev
+  npm install react-scripts --save
+```
 Application uses react, .NET 5, Entity Frameworks and SQLite.
 
 To begin, navigate to https://localhost:5001/ then register. After registering you will comfirm your identity then see a confimation page.

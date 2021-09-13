@@ -1,6 +1,6 @@
 # LoyaltyProgram
 
-MVC React application generated with .NET 5.0.
+.NET MVC with React application generated with .NET 5.0.
 
 To run install .NET 5.0
 Clone the repository restore nuget packages, build and run!
